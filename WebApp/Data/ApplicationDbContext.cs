@@ -10,6 +10,5 @@ namespace WebApp.Data
         {
         }
 
-        // Db Sets
     }
 }
