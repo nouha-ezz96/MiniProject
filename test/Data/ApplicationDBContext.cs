@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApp.Data
+namespace test.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -9,7 +9,5 @@ namespace WebApp.Data
             : base(options)
         {
         }
-
-        // Db Sets
     }
 }
