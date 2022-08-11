@@ -10,6 +10,7 @@ namespace WebApp.Data
         {
         }
         public DbSet<Panel> Panel { get; set; }
+        public DbSet<Adress> Adresses { get; set; }
 
     }
 }
