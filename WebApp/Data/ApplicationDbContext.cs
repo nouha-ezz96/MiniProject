@@ -9,6 +9,7 @@ namespace WebApp.Data
             : base(options)
         {
         }
+        public DbSet<Panel> Panel { get; set; }
 
     }
 }
