@@ -10,6 +10,5 @@ namespace WebApp.Data
         {
         }
 
-        // add dbsets to indicate tables names 
     }
 }
