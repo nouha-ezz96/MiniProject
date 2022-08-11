@@ -9,7 +9,7 @@ namespace WebApp.Data
             : base(options)
         {
         }
+        public DbSet<Panel> Panel { get; set; }
 
-        // add dbsets to indicate tables names 
     }
 }
